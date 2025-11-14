@@ -1,0 +1,14 @@
+function f(int a)
+begin
+   int b = 6;
+   int c = 2;
+   ((b+c)/a);
+end
+
+function main()
+begin
+   int a = 1;
+   int b = 2;
+   int c = 4;
+   ((6 + f(c) ) / b);
+end
